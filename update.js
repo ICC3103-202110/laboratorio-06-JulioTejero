@@ -21,6 +21,13 @@ function update(input,model){
                     rightValue: newTemp,
                     rightUnit: toUnit
                 }
+            }else{
+                return {
+                    leftValue: initTemperature,
+                    leftUnit: fromUnit,
+                    rightValue: initTemperature,
+                    rightUnit: toUnit
+                }
             }
         }
         if(fromUnit === "Fahrenheit") {
@@ -40,6 +47,13 @@ function update(input,model){
                     rightValue: newTemp,
                     rightUnit: toUnit
                 }
+            }else{
+                return {
+                    leftValue: initTemperature,
+                    leftUnit: fromUnit,
+                    rightValue: initTemperature,
+                    rightUnit: toUnit
+                }
             }
         }
         if(fromUnit === "Kelvin") {
@@ -57,6 +71,13 @@ function update(input,model){
                     leftValue: initTemperature,
                     leftUnit: fromUnit,
                     rightValue: newTemp,
+                    rightUnit: toUnit
+                }
+            }else{
+                return {
+                    leftValue: initTemperature,
+                    leftUnit: fromUnit,
+                    rightValue: initTemperature,
                     rightUnit: toUnit
                 }
             }
@@ -79,6 +100,13 @@ function update(input,model){
                     rightValue: initTemperature,
                     rightUnit: fromUnit
                 }
+            }else{
+                return {
+                    leftValue: initTemperature,
+                    leftUnit: fromUnit,
+                    rightValue: initTemperature,
+                    rightUnit: toUnit
+                }
             }
         }
         if(fromUnit === "Fahrenheit") {
@@ -98,6 +126,13 @@ function update(input,model){
                     rightValue: initTemperature,
                     rightUnit: fromUnit
                 }
+            }else{
+                return {
+                    leftValue: initTemperature,
+                    leftUnit: fromUnit,
+                    rightValue: initTemperature,
+                    rightUnit: toUnit
+                }
             }
         }
         if(fromUnit === "Kelvin") {
@@ -116,6 +151,13 @@ function update(input,model){
                     leftUnit: toUnit,
                     rightValue: initTemperature,
                     rightUnit: fromUnit
+                }
+            }else{
+                return {
+                    leftValue: initTemperature,
+                    leftUnit: fromUnit,
+                    rightValue: initTemperature,
+                    rightUnit: toUnit
                 }
             }
         }

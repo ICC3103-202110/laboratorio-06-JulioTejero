@@ -10,7 +10,6 @@ async function app(state, update, view){
         console.log(title)
         printTable(table)
         const input = await inputForm(model)
-        console.log(input)
         const updatedModel = update(input, model)
         state = {
             ...state,
